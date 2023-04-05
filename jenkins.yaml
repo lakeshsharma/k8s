@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: throughjenkins
+spec:
+  containers:
+  - name: probe
+    image: nginx
+    ports:
+    - containerPort: 90
